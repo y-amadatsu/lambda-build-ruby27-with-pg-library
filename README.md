@@ -13,3 +13,10 @@ It's on [docker-hub](https://hub.docker.com/r/amd2/lambda-build-ruby27-with-pg-l
 ```sh
 docker run --rm  -it amd2/lambda-build-ruby27-with-pg-library
 ```
+
+## build
+
+```sh
+docker build -t amd2/lambda-build-ruby27-with-pg-library .
+doker push amd2/lambda-build-ruby27-with-pg-library:latest
+```
